@@ -68,11 +68,11 @@ section .title::before{
 }
 section .title::after{
     position: absolute;
-    bottom: 0px;
+    bottom: -8px;
     left: 50%;
     font-size: 20px;
     color: crimson;
-    padding: 5px;
+    padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
 }
